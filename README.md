@@ -23,3 +23,13 @@ When comparing the total reviews, filtered for total_votes greater than or equal
 - percentage of 5-star unpaid reviews: 52.69%
 
 ## Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+
+It does not appear that there is bias for positivity in the paid reviews for outdoor receration equiptment. There is a higher percentage of unpaid 5-star reviews than there was paid 5-star reviews. 
+
+To further look at this analysis, I performed a z-ratio analysis for the significance of the difference between two independent proportions, pa and pb. For the notation used here, na and nb represent the total numbers of observations in two independent samples, A and B; ka and kb represent the numbers of observations within each sample that are of particular interest; and pa and pb represent the proportions ka/na and kb/nb, respectively. Pa = 0.5234 Pb = 0.5269, Pa - Pb = -0.0035. Z-ratio = -0.072.
+
+- One Tail Probability: 0.4713
+- Two Tail Probability: 0.9426
+
+The results indicate that there is not a significant difference in the paid versus unpaid Amazon Vine review program in the proportion of 5-star reviews.
+
